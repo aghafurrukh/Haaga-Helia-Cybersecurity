@@ -47,6 +47,24 @@ Another thing that stood out to me was the relationship between home network sec
 Overall, I think the episode is a good reminder that convenience should not be the only factor when purchasing technology. We should also consider who developed the device, whether its software is regularly updated and what kind of access it has to our network. Even a cheap entertainment device can become part of a much bigger cybersecurity problem.
 
 **b) – Blog**  
+https://krebsonsecurity.com/  
+Who Operates the Badbox 2.0 Botnet?  
+January 26, 2026  
+
+
+**Summary**
+
+After listening to the Darknet Diaries episode about SuperBox, I became interested in finding out more about the BadBox botnet and the people responsible for operating it. To learn more, I found an article on Krebs on Security titled Who Operates the BadBox 2.0 Botnet?, published in January 2026.  
+
+The blog takes the story further by looking into the possible individuals and groups behind BadBox 2.0. The author, Brian Krebs, investigates information such as leaked screenshots, email accounts, domain registrations and other publicly available digital evidence to find possible links between the people involved.  
+
+One interesting detail is the reported connection between BadBox 2.0 and another botnet called Kimwolf. According to the investigation, a Kimwolf operator known as Dort reportedly gained access to the BadBox 2.0 control panel. This could have allowed the Kimwolf group to use already infected devices to spread its own malware and increase the size of its network.  
+
+I found this blog interesting because it adds another layer to the story I heard in the podcast. The podcast helped me understand how ordinary streaming devices could create security problems, while the blog focuses more on the infrastructure and people potentially involved in these operations.  
+
+Another thing I learned is how cybersecurity researchers use Open-Source Intelligence (OSINT) to investigate cybercrime. Information from domain records, online accounts and leaked material can help researchers identify relationships between suspicious activities and possible threat actors. However, these findings should be treated as investigative leads rather than confirmed proof of criminal responsibility.  
+
+Overall, following this blog helped me understand that the SuperBox incident was not just an isolated problem with a streaming device. It was connected to a much wider botnet ecosystem. Devices that people use in their homes can unknowingly become part of criminal networks and contribute to attacks on other systems. This shows why IoT security, regular software updates and continuous monitoring are important.
 
 
 **c) – Science that**  
