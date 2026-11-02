@@ -1,6 +1,5 @@
 **a) Podcast**
-
-Darknet Diaries – Episode 172: SuperBox  
+  
 Podcast: Darknet Diaries  
 Episode: 172 – SuperBox  
 Host: Jack Rhysider  
@@ -23,9 +22,7 @@ Another interesting discovery was that Android Debug Bridge (ADB) was accessible
 
 The investigation then expanded beyond SuperBox. D3ada55 examined other similar streaming devices, including vSeeBox and Magabox, and discovered similar suspicious behaviour. She also started connecting her findings to a wider malware ecosystem involving BadBox and Kimwolf.
 
-One of the most concerning parts of the episode is the connection to botnets. A botnet is a network of compromised devices controlled by attackers. These devices can be used without their owners knowing about it. Attackers can use them to perform activities such as sending spam, hiding their internet traffic or launching Distributed Denial of Service (DDoS) attacks.
-
-A DDoS attack happens when a large number of devices send traffic to a particular website or server at the same time. The amount of traffic can become so large that the target service stops working. The episode discusses a massive attack reaching approximately 31 terabits per second, showing how powerful these networks of compromised devices can become.
+One of the most concerning parts of the episode is the connection to botnets. The episode also discusses a massive DDoS attack reaching approximately 31 terabits per second, showing how powerful these networks of compromised devices can become.
 
 The story also explains how these products became popular. They were promoted through online marketplaces, YouTube channels, TikTok and Facebook Marketplace. Some influencers received commissions for recommending them. This made the devices look more trustworthy to ordinary customers. Many buyers probably had no idea that the devices could have security problems. They were mainly interested in getting access to entertainment at a low price.
 
@@ -50,4 +47,16 @@ Another thing that stood out to me was the relationship between home network sec
 Overall, I think the episode is a good reminder that convenience should not be the only factor when purchasing technology. We should also consider who developed the device, whether its software is regularly updated and what kind of access it has to our network. Even a cheap entertainment device can become part of a much bigger cybersecurity problem.
 
 
-**b) Blog**  
+**Part C – Connecting CyberScience with a Real Security Event**  
+
+The H1 CyberScience article, Real-time Privacy Vulnerability Detection Techniques in Software Development: A Systematic Literature Review, focuses on identifying privacy vulnerabilities during software development. It highlights the importance of detecting security and privacy issues before they become serious problems.  
+
+I found a strong connection between this research and the SuperBox investigation discussed in Darknet Diaries Episode 172. One important security event from the podcast was the discovery that SuperBox devices had become part of the Kimwolf botnet. These compromised devices could be remotely controlled and used in large-scale DDoS attacks.  
+
+This incident demonstrates why real-time vulnerability detection and continuous security monitoring are important. Even if a device works as expected from the user's perspective, it may perform suspicious activities in the background. In the podcast, network traffic analysis helped the researcher identify unusual communication and scanning activities. This is closely related to dynamic security analysis, where software behaviour is examined while it is running.  
+
+The incident also highlights a wider problem with IoT security and the software supply chain. Security risks do not end when a product is released. Outdated software, insecure configurations and unnecessary remote-access features can make devices vulnerable to exploitation. A compromised home device can also become a starting point for attacks against other devices or networks.  
+
+In my opinion, this case shows that privacy and security should be considered throughout the entire software lifecycle, from development and testing to deployment and maintenance. The research article provides the theoretical understanding of vulnerability detection, while the podcast demonstrates the real-world consequences of failing to identify and address security weaknesses.
+
+
