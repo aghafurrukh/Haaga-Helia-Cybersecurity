@@ -46,9 +46,10 @@ Another thing that stood out to me was the relationship between home network sec
 
 Overall, I think the episode is a good reminder that convenience should not be the only factor when purchasing technology. We should also consider who developed the device, whether its software is regularly updated and what kind of access it has to our network. Even a cheap entertainment device can become part of a much bigger cybersecurity problem.
 
-**Part B – Blog**  
+**b) – Blog**  
 
-**Part C – Science that**  
+
+**c) – Science that**  
 
 The H1 CyberScience article, Real-time Privacy Vulnerability Detection Techniques in Software Development: A Systematic Literature Review, focuses on identifying privacy vulnerabilities during software development. It highlights the importance of detecting security and privacy issues before they become serious problems.  
 
