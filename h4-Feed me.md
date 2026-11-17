@@ -24,15 +24,17 @@ Checking websites individually requires regular effort and depends on users reme
 
 A feed reader offers a practical alternative to manual browsing by making information collection more organised and less time-consuming. For cybersecurity professionals, it can be particularly valuable for following security researchers, monitoring emerging cyber threats, reading vulnerability disclosures, and keeping up with changes in the cybersecurity industry. Therefore, RSS and Atom feeds support continuous learning and help security professionals maintain awareness of the latest developments.
 
+
 **y) Supreme court of Finland, [case Osuuspankkikeskus port scan KKO:2003:36](https://www.finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2003/36).**
 
-Background: The case involved a 17-year-old who used port-scanning software to examine the computer network of Osuuspankkikeskus (OPK). The purpose was to identify open ports and possible ways to access the network. However, the organisation's firewall blocked the attempted access.
+**Background**: The case involved a 17-year-old who used port-scanning software to examine the computer network of Osuuspankkikeskus (OPK). The purpose was to identify open ports and possible ways to access the network. However, the organisation's firewall blocked the attempted access.
 
-Court decision: The Supreme Court considered the activity an attempted computer intrusion, even though the individual did not successfully enter the system. The case highlighted that attempting to gain unauthorised access can have legal consequences even when the security measures prevent the intrusion from succeeding.
+**Court decision**: The Supreme Court considered the activity an attempted computer intrusion, even though the individual did not successfully enter the system. The case highlighted that attempting to gain unauthorised access can have legal consequences even when the security measures prevent the intrusion from succeeding.
 
-Outcome: The individual received a fine and was ordered to pay compensation to the affected parties.
+**Outcome**: The individual received a fine and was ordered to pay compensation to the affected parties.
 
-Conclusion: This case illustrates the legal risks associated with unauthorised network scanning when it is connected to an attempt to access protected systems. Port scanning is a useful technique in cybersecurity, but it should only be performed with appropriate permission. Security professionals must ensure that their testing activities remain within the agreed scope and do not violate applicable laws.
+**Conclusion**: This case illustrates the legal risks associated with unauthorised network scanning when it is connected to an attempt to access protected systems. Port scanning is a useful technique in cybersecurity, but it should only be performed with appropriate permission. Security professionals must ensure that their testing activities remain within the agreed scope and do not violate applicable laws.
+
 
 **a ) Install a feed reader. Show that it can read a feed (RSS or Atom). Include a screenshot of this.**
 
@@ -76,11 +78,13 @@ For this part, I installed **RSSGuard** on my machine. After installing, it look
 
 <img width="973" height="516" alt="image" src="https://github.com/user-attachments/assets/cc3927d8-9fe7-45d7-8fea-0b071dba6082" />
 
+
 **c ) Add a feed for Schneier on Security. Find the blog, and locate the feed.**
 
 I located Bruce Schneier's official cybersecurity blog, Schneier on Security, and identified its Atom feed.I added the feed to RSS Guard using the Discover Feeds option and successfully imported it into my existing feed reader. After updating the subscription, the application retrieved several articles published by Bruce Schneier, which were displayed in the article list.
 
 Feed URL: [https://www.schneier.com/feed/atom/](https://www.schneier.com/feed/atom/)
+
 
 **d ) Find and add two more security related feeds. Explain how you found them, and why you chose them.**
 
@@ -98,15 +102,16 @@ Website: [https://www.darkreading.com/](https://www.darkreading.com/)
 
 Feed: [https://www.darkreading.com/rss.xml](https://www.darkreading.com/rss.xml)
 
+
 **e ) Follow security feeds for a while. What did you learn? What are the benefits and downsides of following feeds with a reader, compared to some other methods of following cyber security scene?**
 
 After using RSS Guard to follow cybersecurity publications such as Krebs on Security, Schneier on Security, The Hacker News, and Dark Reading, I gained a better understanding of current security issues and how cyber threats affect individuals and organisations.
 
-What I Learned
+**What I Learned**
 
 Following these sources helped me understand that cyber threats are constantly changing. I learned about different types of attacks, security vulnerabilities, malware, and ransomware. I also realised that technical protection alone is not enough; organisations must pay attention to employee awareness, security policies, and regular software updates.
 
-Benefits of Using a Feed Reader
+**Benefits of Using a Feed Reader**
 
 - Brings information from several cybersecurity websites together in one place.
 
@@ -118,7 +123,7 @@ Benefits of Using a Feed Reader
 
 - Helps users regularly update their cybersecurity knowledge.
 
-Limitations of Using a Feed Reader
+**Limitations of Using a Feed Reader**
 
 - Subscribing to many sources can make it difficult to keep up with all the updates.
 
@@ -130,12 +135,13 @@ Limitations of Using a Feed Reader
 
 - Users must check the accuracy and relevance of the information themselves.
 
-Comparison with Other Information Sources
+**Comparison with Other Information Sources**
 
 RSS readers are convenient for collecting updates from multiple websites, whereas social media platforms provide discussions and opinions from other users. Email newsletters offer selected information directly to an inbox, while visiting websites manually gives access to complete articles and additional resources. Each method can be useful depending on the user's needs.
 
-Conclusion
+**Conclusion**
 
 Using RSS Guard was a practical way to explore different cybersecurity information sources and follow developments in the security field. I found that feed readers make information gathering easier and more organised, although they have some limitations. Combining RSS feeds with other sources, such as professional communities, newsletters, and social media, can provide a broader understanding of cybersecurity and emerging threats.
+
 
 **f ) Port scan. How can criminals know what services your employer has?**
