@@ -144,4 +144,23 @@ RSS readers are convenient for collecting updates from multiple websites, wherea
 Using RSS Guard was a practical way to explore different cybersecurity information sources and follow developments in the security field. I found that feed readers make information gathering easier and more organised, although they have some limitations. Combining RSS feeds with other sources, such as professional communities, newsletters, and social media, can provide a broader understanding of cybersecurity and emerging threats.
 
 
-**f ) Port scan. How can criminals know what services your employer has?**
+**f ) Port scan. How can criminals know what services your employer has?**  
+I installed Nmap and OpenSSH Server on my Debian Cinnamon 13.7 virtual machine while it was connected to the internet. After installation, I disconnected the virtual machine from the network and tested the connection using following command  
+
+ping –c 4 8.8.8.8  
+
+The terminal returned “Network is unreachable” confirming the internet has been disconnected.  
+<img width="975" height="554" alt="image" src="https://github.com/user-attachments/assets/6b79f66c-7af0-4a23-b1d9-c67d478ed10b" />
+  
+ Then I checked port scan using nmap command, following output was returned which shows only ipp port is open.  
+ <img width="975" height="574" alt="image" src="https://github.com/user-attachments/assets/43a81a5c-4a22-4132-9fa7-0226dc45f412" />
+  
+Then I started openssh, checked its status which is active as expected.  
+<img width="975" height="573" alt="image" src="https://github.com/user-attachments/assets/ee4d85c4-5ca1-46ba-9475-8e4a48109550" />
+
+Finally I run nmap again, this time it returned two open ports which is expected after I started openssh daemon.  
+<img width="975" height="572" alt="image" src="https://github.com/user-attachments/assets/7e78be5e-adfc-46cf-83f7-0379d1f0bbeb" />
+  
+**Analysis**  
+The comparison demonstrates how running services affect the open ports on a computer. When I started the SSH daemon, port 22 became open and visible in the second scan. This shows that Nmap can identify services running on a system by examining its open ports.Attackers can use similar scanning techniques to discover which services are available on an organisation's computers and servers. If these services contain vulnerabilities or are not properly secured, they could provide opportunities for unauthorised access.  
+The experiment helped me understand how port scanning can reveal information about a computer's running services and why managing open ports is important for network security.
