@@ -38,41 +38,43 @@ Conclusion: This case illustrates the legal risks associated with unauthorised n
 
 For this part, I installed **RSSGuard** on my machine. After installing, it looks like this before I added feed.
 
-![Screenshot 1](images/screenshot-01.png)
+<img width="975" height="670" alt="image" src="https://github.com/user-attachments/assets/3bc43418-882d-4704-abc8-c58eeb136663" />
+
 
 **b ) Add the feed for Krebs.**
 
 - Add account to set up feed.
 
-![Screenshot 2](images/screenshot-02.png)
+<img width="975" height="666" alt="image" src="https://github.com/user-attachments/assets/2310da30-60ab-4d7d-b016-11f4ebb5dd78" />
+
 
 - Select local RSS option and click OK
 
-![Screenshot 3](images/screenshot-03.png)
+<img width="975" height="671" alt="image" src="https://github.com/user-attachments/assets/530da012-238b-4459-a989-f45c927e786b" />
 
 - Give appropriate title and click OK
 
-![Screenshot 4](images/screenshot-04.png)
+<img width="974" height="672" alt="image" src="https://github.com/user-attachments/assets/dfebf998-37e1-4044-b32b-9231324aedc7" />
 
 - Following screen will appear after your account is set up.
 
-![Screenshot 5](images/screenshot-05.png)
+<img width="974" height="665" alt="image" src="https://github.com/user-attachments/assets/e42136d4-d3ae-46c6-b115-d1f13b05fd26" />
 
 - Now for adding feed, click on Feeds on menu bar and select the option as shown below
 
-![Screenshot 6](images/screenshot-06.png)
+<img width="974" height="655" alt="image" src="https://github.com/user-attachments/assets/42264b56-42c9-44db-bbcf-e47d3d9e5cfe" />
 
 - Paste the url and click on Discover button
 
-![Screenshot 7](images/screenshot-07.png)
+<img width="975" height="673" alt="image" src="https://github.com/user-attachments/assets/c478a28a-9fa2-4441-bc50-8354c5c70a4a" />
 
 - The feeds will appear in the discovered feeds section. Click on Select all and click Import checked feeds. Close the window in the end.
 
-![Screenshot 8](images/screenshot-08.png)
+<img width="974" height="665" alt="image" src="https://github.com/user-attachments/assets/a098079d-1676-41d5-92f7-ea0a7a469869" />
 
 - The feeds will appear in the right panel as shown below.
 
-![Screenshot 9](images/screenshot-09.png)
+<img width="973" height="516" alt="image" src="https://github.com/user-attachments/assets/cc3927d8-9fe7-45d7-8fea-0b071dba6082" />
 
 **c ) Add a feed for Schneier on Security. Find the blog, and locate the feed.**
 
